@@ -78,6 +78,9 @@ For New Atlantis Times or other civic newspaper accessions:
 - Use period newspaper serif or slab-serif display type for headlines and classic newspaper serif type for subheads; avoid modern UI fonts, geometric sans-serif defaults, clean vector edges, and computer-perfect alignment.
 - Keep stable newspaper conventions visible: dated folio line, low-tide edition, pearlmark price line, standing motto, halftone press photograph, shell-script body columns, narrow column rules, and aged paper.
 - If a newspaper appears inside a press photograph, style that nested paper as its own miniature newspaper with masthead, folio, motto, headline hierarchy, columns, and physical folds rather than as a plain sign.
+- A gridded archival mat or conservation table can help the page feel like a handled museum object, but avoid incidental measuring equipment around the page, including rulers, numbered cutting mats, metric scales, and calibration strips, unless the numbers are essential and can be checked manually.
+- If generated numeric or ordered systems appear anyway, review them at full size before accessioning; crop, remove, or regenerate any malformed sequences rather than treating them as background texture.
+- For nested newspaper images, define the chronology explicitly: e.g. an earlier low-tide extra held inside a later high-tide correction. Keep masthead, date, folio, motto, and layout conventions consistent across papers printed by the same institution on the same day.
 
 For meta-modernist or process-embedded works:
 
