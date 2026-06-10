@@ -92,15 +92,19 @@ Use this default sequence for new works:
 
 ```text
 Chief Curator brief
--> Acquisition Team dossier and candidate work
+-> Acquisition Team candidate strategies and prompts
+-> Image generation candidates
+-> Labeled contact sheet when multiple candidates exist
 -> Critic / Accession Reviewer decision
--> Acquisition Team revision if requested
--> Registrar metadata
+-> Acquisition Team focused revision if no candidate meets Gallery or Masterpiece standard
+-> Chief Curator finalist recommendation
+-> User approval gate
+-> Registrar metadata and canonical asset placement
 -> Copy Editor polish
 -> Historian review if new canon or world facts were introduced
 ```
 
-The sequence can be compressed for small tasks, but do not merge acquisition and criticism when quality judgment matters.
+The sequence can be compressed for small tasks, but do not merge acquisition and criticism when quality judgment matters. Do not create or publish accession metadata until the user approves the selected candidate.
 
 ## Context Boundaries
 

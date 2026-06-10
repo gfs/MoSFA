@@ -135,10 +135,14 @@ when quality judgment, metadata compatibility, or world continuity matter.
 
 ## Add a new artwork
 
-1. Add the image file in `src/assets/images/artworks/`.
-2. Add a new YAML record in `src/data/artworks/`, named after the artwork slug
+1. During candidate development, keep temporary images and contact sheets in
+   `scratch/`. Use `npm run contact-sheet -- ...` to assemble an HTML review
+   sheet for generated candidates.
+2. After user approval, add the image file in `src/assets/images/artworks/`.
+3. Add a new YAML record in `src/data/artworks/`, named after the artwork slug
    (for example `src/data/artworks/my-piece.yaml`).
-3. Fill all metadata fields:
+   `npm run new:artwork -- --slug my-piece` can scaffold an unpublished draft.
+4. Fill all metadata fields:
    - `title`
    - `slug`
    - `artistReference`
@@ -155,6 +159,9 @@ when quality judgment, metadata compatibility, or world continuity matter.
    - `published` (`true`/`false`)
 
 The homepage, gallery, era pages, category pages, and detail page are created automatically.
+
+Run `npm run validate:artworks` before committing accession metadata. `npm run
+build` runs the same validation before Astro builds the site.
 
 `src/data/artworks.yaml` remains supported for existing records. Do not insert
 new accessions into that shared file unless a task explicitly asks for a data

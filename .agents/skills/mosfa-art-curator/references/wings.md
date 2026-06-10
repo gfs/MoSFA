@@ -15,6 +15,7 @@ Use museum wings to place works by artistic lineage, visual language, and curato
 - **Abstract Currents**: Non-representational work, movement studies, symbolic geometry, action painting, formal experiments.
 - **Comic & Mass Culture Pavilion**: Comic covers, superheroes, serial imagery, genre illustration, pulp spectacle.
 - **Ancient Shrimp Civilization**: Proto-writing, temple sculpture, dynastic reliefs, funerary arts, regalia, domestic ritual objects, medical instruments, guild standards, and other material evidence of early shrimp-folk civilization.
+- **Reef Street Art Corridor**: New Atlantis graffiti, stencil protest, transit tags, memorial walls, pressure-glass underpasses, street-pop murals, and other contemporary public wall practices.
 
 ## Sub-Gallery Programs
 

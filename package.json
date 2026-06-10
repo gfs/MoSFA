@@ -8,9 +8,12 @@
   },
   "scripts": {
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
-    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "build": "npm run validate:artworks && ASTRO_TELEMETRY_DISABLED=1 astro build",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
-    "astro": "ASTRO_TELEMETRY_DISABLED=1 astro"
+    "astro": "ASTRO_TELEMETRY_DISABLED=1 astro",
+    "validate:artworks": "node scripts/validate-artworks.mjs",
+    "new:artwork": "node scripts/new-artwork.mjs",
+    "contact-sheet": "node scripts/make-contact-sheet.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.2",
