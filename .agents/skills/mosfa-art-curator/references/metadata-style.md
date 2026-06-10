@@ -70,7 +70,7 @@ only render this field if the prompt history is intentionally part of the artwor
 - `description`: One or two sentences for the detail page. Keep public labels focused on what the work does, not on internal tier language.
 - `featured`: Use `true` only when intentionally placing on the homepage.
 - `published`: Use `true` for live accessions and `false` for drafts.
-- `generation`: Private prompt provenance and iteration history. Prefer `successfulPrompt`, `variations`, and `lessons` so future contributors can reuse what worked without maintaining a separate source of truth.
+- `generation`: Private prompt provenance and iteration history. Prefer `successfulPrompt`, `selectionNotes`, `criticDecision`, `variations`, and `lessons` so future contributors can reuse what worked without maintaining a separate source of truth. Include `contactSheet` only when the review sheet is intentionally retained somewhere durable; omit scratch-only contact sheets from committed metadata.
 
 ## Style
 
@@ -117,6 +117,9 @@ Avoid:
   generation:
     successfulPrompt: |
       Detailed image-generation prompt that produced the canonical accession.
+    selectionNotes:
+      - Candidate B was approved by the user after contact sheet review.
+    criticDecision: Gallery
     variations:
       - result: rejected
         reason: Anatomy became decorative instead of structural.

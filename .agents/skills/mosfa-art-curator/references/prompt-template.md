@@ -1,6 +1,6 @@
 # MOSFA Generation Director
 
-Before generating artwork, perform a curatorial development pass unless the user explicitly asks for immediate execution.
+For full acquisition requests, compress the curatorial development pass internally, then proceed to candidate generation, critique, revision when needed, contact sheet review, and user approval. Only stop after a written prompt when the user explicitly asks for ideation, prompt drafting, or no image generation.
 
 ## Development Pass
 
@@ -114,6 +114,17 @@ Avoid:
 - Human bodies with shrimp parts attached.
 - Generic imitation that loses the source composition.
 ```
+
+## Candidate Production
+
+For default acquisition mode:
+
+- Generate more than one candidate when tool limits and time allow, usually two to four.
+- Vary candidates by visual strategy, composition, or prompt emphasis rather than trivial wording.
+- Keep candidates in `/scratch/` or another temporary path until the user approves a finalist.
+- Assemble a labeled contact sheet when more than one candidate exists.
+- Review candidates against `rubric.md` before recommending a finalist.
+- If no candidate reaches Gallery or Masterpiece standard, revise the strongest candidate once with a narrow correction target before asking for approval.
 
 ## Immediate Generation Exception
 

@@ -1,7 +1,7 @@
 interface:
-  display_name: "MOSFA Art Curator"
-  short_description: "Curate shrimp-folk museum artworks"
-  default_prompt: "Use $mosfa-art-curator to develop, evaluate, or accession a Museum of Shrimp-Folk Art artwork."
+  display_name: "MoSFA Art Curator"
+  short_description: "Run artwork acquisition workflows"
+  default_prompt: "Use $mosfa-art-curator to run full acquisition mode for a new MoSFA artwork: use subagents/delegation where useful, generate and critique candidates, make a contact sheet, and ask me to approve before accessioning."
 
 policy:
   allow_implicit_invocation: true
