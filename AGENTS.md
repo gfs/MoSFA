@@ -79,11 +79,11 @@ for SVG.
 
 ## Artwork Metadata Workflow
 
-For new artwork accessions, create one YAML file per artwork in
-`src/data/artworks/`, named after the accession slug, instead of inserting new
-records into `src/data/artworks.yaml`. This keeps parallel Codex tasks from
-creating avoidable merge conflicts in the shared collection file.
+For artwork accessions, create or revise one YAML file per artwork in
+`src/data/artworks/`, named after the accession slug. Keep one record per file so
+future broad curatorial audits can skim the collection and parallel Codex tasks
+avoid shared-file merge conflicts.
 
-Only edit `src/data/artworks.yaml` when revising records that already live there
-or when a task explicitly asks for a deliberate data migration. Do not reorder,
-group, or sort existing records as incidental cleanup during accession work.
+Do not create shared multi-record artwork files or reintroduce
+`src/data/artworks.yaml` as incidental cleanup. Do not reorder, group, or sort
+existing records as incidental cleanup during accession work.

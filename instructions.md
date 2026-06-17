@@ -13,7 +13,7 @@ Use this package when generating, evaluating, curating, accessioning, or writing
 - `references/wings.md`: Museum wings, categories, and placement guidance.
 - `references/rubric.md`: Masterpiece, Gallery, and Reject/Revise evaluation criteria.
 - `references/prompt-template.md`: Generation Director workflow and prompt structure.
-- `references/metadata-style.md`: Accession metadata style for `src/data/artworks.yaml`.
+- `references/metadata-style.md`: Accession metadata style for per-artwork YAML records in `src/data/artworks/`.
 
 Keeping the skill under `.agents/skills/` makes it available with the repository without installing it into a user's global Codex skills directory.
 

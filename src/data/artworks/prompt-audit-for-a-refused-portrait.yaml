@@ -1,0 +1,25 @@
+title: Prompt Audit for a Refused Portrait
+slug: prompt-audit-for-a-refused-portrait
+artistReference: Luis Bunuel, Salvador Dali, and MoSFA process plates
+sourceWork: Curatorial study plate with full in-image generation prompt
+yearOrPeriod: Meta-surrealist process study
+era: Surrealist Depths
+categories:
+  - Museum Process Text
+  - Meta-Modernist Studies
+  - Surrealist Depths
+image: /images/artworks/prompt-audit-for-a-refused-portrait.png
+imageAlt: A two-panel process plate with a full prompt dossier on the left and a shrimp-folk portrait under pale rule-audit callouts with red arrows on the right.
+summary: Dossier text, rule-audit callouts, and a deliberately flawed portrait turn prompt failure into a formal Surrealist study.
+description: "Extending the process-plate lineage opened by Compound Eye Film Study, the work makes the prompt readable as a museum document while the portrait visibly obeys it by breaking the rules."
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Create a shrimp-folk civic portrait that visibly breaks three museum rules: give the sitter three antennae, one human-like hand, and a frame that completes itself over the body. Add red curator notes naming each failure. Keep the tone serious.
+  processNotes:
+    - The Shrimp un Chien technique works by making a two-panel curatorial study plate: large image on one side, formal dossier text on the other.
+    - Full prompt inclusion becomes plausible when the prompt is short, declarative, and typeset as a museum document.
+    - The right image must visibly execute the prompt's failures, or the left dossier becomes ornamental.
+    - Legibility pass replaced transparent red writing with pale callout boxes, dark type, and red arrows so the audit reads without losing the curator-mark language.
+

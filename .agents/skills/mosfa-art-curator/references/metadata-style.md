@@ -11,11 +11,9 @@ For new artwork accessions, create one YAML file per artwork in
 `src/data/artworks/shrimp-with-a-pearl-earring.yaml`. Each drop-in file may
 contain a single artwork record without a top-level list marker.
 
-Use `src/data/artworks.yaml` only when revising records that already live there
-or when a task explicitly asks for a data migration. Do not insert new accessions
-into the middle of the shared file, and do not reorder records as incidental
-cleanup. Collection, gallery, era, and category ordering is handled by page code
-and metadata fields rather than YAML position.
+Do not create shared multi-record artwork files. Collection, gallery, era, and
+category ordering is handled by page code and metadata fields rather than YAML
+position.
 
 
 ## Museum Name Style
@@ -33,20 +31,20 @@ Avoid legacy all-caps **MOSFA** in new or revised style-guide text unless reprod
 Each artwork record should include:
 
 ```yaml
-- title:
-  slug:
-  artistReference:
-  sourceWork:
-  yearOrPeriod:
-  era:
-  categories:
-    - 
-  image:
-  imageAlt:
-  summary:
-  description:
-  featured: false
-  published: true
+title:
+slug:
+artistReference:
+sourceWork:
+yearOrPeriod:
+era:
+categories:
+  -
+image:
+imageAlt:
+summary:
+description:
+featured: false
+published: true
 ```
 
 `featuredRank` is optional and should only be used for homepage-featured works.
@@ -98,34 +96,34 @@ Avoid:
 ## Good Metadata Pattern
 
 ```yaml
-- title: Shrimp with a Pearl Earring
-  slug: shrimp-with-a-pearl-earring
-  artistReference: Johannes Vermeer
-  sourceWork: Girl with a Pearl Earring
-  yearOrPeriod: c. 1665 Dutch Golden Age translation
-  era: Baroque & Dramatic Realism
-  categories:
-    - Dutch Golden Age Portraiture
-    - Chiaroscuro Ceremonies
-  image: /images/artworks/shrimp-with-a-pearl-earring.jpeg
-  imageAlt: A Vermeer-like shrimp-folk portrait with a blue and gold head wrap, dark background, turned gaze, and luminous pearl earring.
-  summary: Shell, gaze, cloth, and pearl resolve into one intimate Dutch Golden Age stillness.
-  description: The portrait preserves Vermeer's dark ground, turned pose, luminous earring, and hushed psychological presence while translating the sitter into coherent shrimp-folk anatomy.
-  featured: true
-  featuredRank: 4
-  published: true
-  generation:
-    successfulPrompt: |
-      Detailed image-generation prompt that produced the canonical accession.
-    selectionNotes:
-      - Candidate B was approved by the user after contact sheet review.
-    criticDecision: Gallery
-    variations:
-      - result: rejected
-        reason: Anatomy became decorative instead of structural.
-        prompt: |
-          Earlier prompt variation retained for future learning.
-    lessons:
-      - Name the source composition before adding shrimp-folk details.
-      - Preserve museum lighting, material realism, and coherent anatomy.
+title: Shrimp with a Pearl Earring
+slug: shrimp-with-a-pearl-earring
+artistReference: Johannes Vermeer
+sourceWork: Girl with a Pearl Earring
+yearOrPeriod: c. 1665 Dutch Golden Age translation
+era: Baroque & Dramatic Realism
+categories:
+  - Dutch Golden Age Portraiture
+  - Chiaroscuro Ceremonies
+image: /images/artworks/shrimp-with-a-pearl-earring.jpeg
+imageAlt: A Vermeer-like shrimp-folk portrait with a blue and gold head wrap, dark background, turned gaze, and luminous pearl earring.
+summary: Shell, gaze, cloth, and pearl resolve into one intimate Dutch Golden Age stillness.
+description: The portrait preserves Vermeer's dark ground, turned pose, luminous earring, and hushed psychological presence while translating the sitter into coherent shrimp-folk anatomy.
+featured: true
+featuredRank: 4
+published: true
+generation:
+  successfulPrompt: |
+    Detailed image-generation prompt that produced the canonical accession.
+  selectionNotes:
+    - Candidate B was approved by the user after contact sheet review.
+  criticDecision: Gallery
+  variations:
+    - result: rejected
+      reason: Anatomy became decorative instead of structural.
+      prompt: |
+        Earlier prompt variation retained for future learning.
+  lessons:
+    - Name the source composition before adding shrimp-folk details.
+    - Preserve museum lighting, material realism, and coherent anatomy.
 ```

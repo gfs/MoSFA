@@ -35,7 +35,7 @@ Use this skill for requests involving:
    Do not use SVG or other code-native image formats unless the user specifically requests SVG.
 7. For curation or quality decisions, load `references/rubric.md`.
 8. For wing, era, or category placement, load `references/wings.md`.
-9. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks.yaml` and `src/data/artworks/`.
+9. For website metadata, load `references/metadata-style.md` and inspect existing records in `src/data/artworks/`.
 
 ## Default Acquisition Mode
 

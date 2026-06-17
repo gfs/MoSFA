@@ -26,7 +26,6 @@ export type ArtworkSort = 'collection' | 'newest';
 
 const FEATURED_ARTWORK_LIMIT = 8;
 const ARTWORK_IMAGE_REPOSITORY_DIR = 'src/assets/images/artworks';
-const ARTWORKS_DATA_FILE = 'src/data/artworks.yaml';
 const ARTWORKS_DATA_DIR = 'src/data/artworks';
 
 let imageGitTimestampCache: Map<string, number> | undefined;
@@ -209,15 +208,8 @@ function addArtworkEntries(
 }
 
 function getArtworkEntries(): ArtworkEntry[] {
-	const monolithPath = join(process.cwd(), ARTWORKS_DATA_FILE);
 	const artworks: ArtworkEntry[] = [];
 	const seenSlugs = new Map<string, string>();
-	addArtworkEntries(
-		artworks,
-		seenSlugs,
-		parseArtworkEntries(readFileSync(monolithPath, 'utf8'), ARTWORKS_DATA_FILE),
-		ARTWORKS_DATA_FILE,
-	);
 
 	for (const filePath of getArtworkDataFiles()) {
 		addArtworkEntries(
