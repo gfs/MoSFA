@@ -1,0 +1,27 @@
+title: Low-Tide Room Tone
+slug: low-tide-room-tone
+artistReference: Minimal ambient record sleeve design
+sourceWork: Late 20th-century art-label LP covers
+yearOrPeriod: Late 20th-century ambient translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - Album Covers
+  - Recorded Currents
+  - Ambient & Minimal Sleeve Art
+image: artworks/low-tide-room-tone.png
+imageAlt: A minimalist ambient LP cover with a seated shrimp-folk sound artist, current harp, shell resonator, pale pressure-glass window, and tiny invented glyph marks.
+summary: A pressure-glass room, quiet waterline, and claw-touched current harp make silence feel like a recorded civic material.
+description: The accession uses spare art-label design to frame shrimp-folk sound practice as a restrained architectural encounter with tide, shell, and room tone. The accepted revision clarifies the performer's folded legs, claws, antennae, and tail fan without disturbing the cover's meditative emptiness.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Revise the in-universe shrimp-folk minimalist ambient album cover so the seated sound artist has clearer shrimp-folk anatomy while preserving the hushed spare design. Show a quiet New Atlantis pressure-glass recording room at dawn, pale shell-concrete, a large rounded window, a suspended water column outside, a soft current line across the glass, a single seated shrimp-folk sound artist with two antennae, clawed hands, two visible folded legs, a separate tail fan, a claw-adapted current harp, a shell resonator, abundant negative space, tiny invented glyph typography, and a matte mist-gray art-label finish.
+  selectionNotes:
+    - Replaced the original candidate with the anatomy revision because it preserved the negative space while making the seated body plan clearer.
+  criticDecision: Gallery
+  variations:
+    - result: rejected
+      reason: The original was visually beautiful but risked reading as literal shrimp posture because the folded legs and tail separation were too subtle.
+  lessons:
+    - Minimal covers can support anatomy correction if the revision protects the large empty field and tiny label marks.

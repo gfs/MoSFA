@@ -1,0 +1,28 @@
+title: Pressure Hymns at Low Tide
+slug: pressure-hymns-at-low-tide
+artistReference: 1970s psychedelic rock gatefold design
+sourceWork: Psychedelic LP sleeve and gatefold poster traditions
+yearOrPeriod: 1970s recorded-current translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - Album Covers
+  - Recorded Currents
+  - Psychedelic Sleeve Art
+image: artworks/pressure-hymns-at-low-tide.png
+imageAlt: A saturated psychedelic gatefold-style LP cover with shrimp-folk musicians arranged around a glowing shell mandala in an intertidal reef amphitheater.
+summary: Shell mandala, tide-stage ceremony, and ornamental glyphs make the psychedelic gatefold feel like reef-world liturgy.
+description: The accepted cover keeps the maximalist fever of 1970s sleeve art while routing its spectacle through shell lamps, pressure-glass architecture, and musician-procession imagery. Its dense amphitheater scene is less anatomically austere than the revision, but its wall-of-sound grandeur better serves the album-cover program.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Create an original in-universe shrimp-folk psychedelic rock gatefold-style album cover, not based on any real album cover. Show a luminous intertidal reef amphitheater at dusk, pressure-glass arches, tide pools, shell-lamp halos, a central glowing shell mandala, shrimp-folk ritual musicians arranged in saturated 1970s psychedelic poster language, ornate invented glyph typography, screenprint texture, magenta, acid green, ultramarine, and golden coral.
+  selectionNotes:
+    - Kept the original after critical review because the cleaner anatomy revision lost too much of the maximalist psychedelic grandeur.
+  criticDecision: Gallery
+  variations:
+    - result: rejected
+      reason: The revision improved performer readability but made the sleeve feel more disciplined than ecstatic.
+  lessons:
+    - Psychedelic gatefolds can tolerate controlled density when spectacle is the curatorial point.
+    - Decorative shrimp motifs should not overwhelm coherent performers, but maximalist sleeve energy may justify more visual density than other album-cover genres.
