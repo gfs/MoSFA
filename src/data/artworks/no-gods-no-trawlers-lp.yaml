@@ -1,0 +1,31 @@
+title: No Gods, No Trawlers
+slug: no-gods-no-trawlers-lp
+artistReference: Late-1970s punk and no-wave record sleeve design
+sourceWork: Xeroxed punk LP and no-wave club-sleeve traditions
+yearOrPeriod: Late-1970s reef-punk translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - Album Covers
+  - Recorded Currents
+  - Reef Punk
+image: artworks/no-gods-no-trawlers-lp.png
+imageAlt: A black-and-white punk LP cover with a jacketed shrimp-folk vocalist shouting into a microphone in a wet New Atlantis underpass beneath jagged invented glyph marks.
+summary: Harsh flash, wet concrete, torn glyphs, and a jacketed vocalist turn reef-punk refusal into a striking LP artifact.
+description: The sleeve translates no-wave abrasion through xerox grain, stencil marks, underpass acoustics, and a shrimp-folk band staged as local counterculture rather than novelty. The accepted anatomy pass keeps the punk jacket and shrimp mouth while clarifying the vocalist's bipedal stance, claw microphone grip, and band hierarchy.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Revise the in-universe shrimp-folk punk/no-wave album cover while preserving its black-white-red palette, harsh flash, wet New Atlantis canal underpass, jagged top glyph banner, left spine strip, and confrontational record-sleeve impact. Show a defiant jacketed shrimp-folk vocalist with coherent upright bipedal anatomy, two primary antennae, a shrimp mouth, clawed manipulator hands gripping a current microphone, two separate legs, and a separate tail fan, with rough band silhouettes behind and only invented glyph typography.
+  selectionNotes:
+    - Selected Revision A after review because the jacket strengthened the punk sleeve language and the shrimp mouth fit the anatomy better than the cleaner but toothier Revision B.
+    - Slugged as no-gods-no-trawlers-lp to avoid collision with the existing street-art accession.
+  criticDecision: Gallery
+  variations:
+    - result: rejected
+      reason: The first candidate had the strongest promise but drifted toward literal shrimp posture and needed anatomy correction.
+    - result: rejected
+      reason: Revision B clarified the full-body stance but introduced a less convincing teeth-like mouth and reduced the punk jacket character.
+  lessons:
+    - Clothing is compatible with shrimp-folk anatomy when it reads as culture and helps genre fidelity.
+    - For punk sleeves, a little roughness can be curatorially stronger than anatomical neatness if the body plan remains coherent.

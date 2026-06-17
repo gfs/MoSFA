@@ -1,0 +1,25 @@
+title: Blue Current Quartet
+slug: blue-current-quartet
+artistReference: Mid-century jazz record sleeve design
+sourceWork: Modern jazz LP cover traditions
+yearOrPeriod: 1950s-1960s recorded-current translation
+era: Comic & Mass Culture Pavilion
+categories:
+  - Album Covers
+  - Recorded Currents
+  - New Atlantis Jazz
+image: artworks/blue-current-quartet.png
+imageAlt: A square jazz LP cover showing four shrimp-folk musicians performing in a nocturnal New Atlantis tide-room club beneath blocky invented glyph typography.
+summary: Club light, glyph typography, and claw-adapted instruments turn the modern jazz sleeve into a New Atlantis sound artifact.
+description: The cover preserves the cool discipline of mid-century jazz design while making the quartet's exoskeletons, antennae, and instruments feel native to shrimp-folk performance culture. Its restrained title block and bottom label strip establish the Recorded Currents accession group with unusual clarity.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Create an original in-universe shrimp-folk jazz album cover, not based on any real album cover. Render a smoky New Atlantis tide-room jazz club as a graphic 1950s-1960s modern jazz record sleeve, with pressure-glass windows, softened reef-city lights, four coherent bipedal shrimp-folk musicians, claw-adapted current-horns and shell percussion, disciplined invented glyph typography, deep indigo, cream, black, and coral red.
+  selectionNotes:
+    - Kept the original candidate after critical review because the quartet anatomy, sleeve hierarchy, glyph discipline, and club atmosphere were already accession-stable.
+  criticDecision: Gallery
+  lessons:
+    - Album-cover accessions need genre-specific graphic hierarchy as much as figure anatomy.
+    - Invented glyph blocks work best when they behave like label typography rather than false-readable text.
