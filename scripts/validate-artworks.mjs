@@ -4,7 +4,6 @@ import { basename, join, relative } from 'node:path';
 import { parse } from 'yaml';
 
 const root = process.cwd();
-const monolithPath = join(root, 'src/data/artworks.yaml');
 const dropInDir = join(root, 'src/data/artworks');
 const imageRoot = join(root, 'src/assets/images');
 
@@ -96,14 +95,7 @@ function validateRecord(record, filePath, expectedSlug, options = {}) {
 
 	for (const field of requiredFields) {
 		if (!(field in record)) {
-			if (options.legacyMonolith && ['featured', 'published'].includes(field)) {
-				addWarning(
-					filePath,
-					`legacy record "${record.title ?? 'untitled'}" is missing ${field}`,
-				);
-			} else {
-				addError(filePath, `missing required field ${field}`);
-			}
+			addError(filePath, `missing required field ${field}`);
 		}
 	}
 
@@ -137,7 +129,7 @@ function validateRecord(record, filePath, expectedSlug, options = {}) {
 		if (expectedSlug && record.slug !== expectedSlug) {
 			addError(
 				filePath,
-				`drop-in filename expects slug "${expectedSlug}", found "${record.slug}"`,
+				`artwork filename expects slug "${expectedSlug}", found "${record.slug}"`,
 			);
 		}
 		const previousPath = seenSlugs.get(record.slug);
@@ -183,16 +175,12 @@ function validateRecord(record, filePath, expectedSlug, options = {}) {
 function validateDropInFile(filePath) {
 	const entries = parseArtworkFile(filePath);
 	if (entries.length !== 1) {
-		addError(filePath, 'drop-in artwork files must contain exactly one record');
+		addError(filePath, 'artwork YAML files must contain exactly one record');
 	}
 	const expectedSlug = basename(filePath).replace(/\.ya?ml$/, '');
 	for (const entry of entries) {
 		validateRecord(entry, filePath, expectedSlug);
 	}
-}
-
-for (const entry of parseArtworkFile(monolithPath)) {
-	validateRecord(entry, monolithPath, undefined, { legacyMonolith: true });
 }
 
 if (existsSync(dropInDir)) {
@@ -201,6 +189,8 @@ if (existsSync(dropInDir)) {
 			validateDropInFile(join(dropInDir, fileName));
 		}
 	}
+} else {
+	addError(dropInDir, 'artwork data directory not found');
 }
 
 for (const warning of warnings) {

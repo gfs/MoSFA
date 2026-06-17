@@ -49,7 +49,7 @@ Revision requests should be narrow:
 
 ### Registrar
 
-Creates or revises collection metadata after a work is accepted or intentionally drafted. The Registrar follows `metadata-style.md`, inspects existing records, and keeps fields compatible with `src/data/artworks.yaml`.
+Creates or revises collection metadata after a work is accepted or intentionally drafted. The Registrar follows `metadata-style.md`, inspects existing records, and keeps fields compatible with per-artwork YAML records in `src/data/artworks/`.
 
 The Registrar may flag title, wing, category, or description problems for curator review but should not override accession decisions alone.
 

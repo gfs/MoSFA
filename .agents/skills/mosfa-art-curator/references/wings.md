@@ -1,6 +1,6 @@
 # MOSFA Museum Wings
 
-Use museum wings to place works by artistic lineage, visual language, and curatorial argument. If an existing `era` or `category` appears in `src/data/artworks.yaml`, prefer the established spelling.
+Use museum wings to place works by artistic lineage, visual language, and curatorial argument. If an existing `era` or `category` appears in `src/data/artworks/`, prefer the established spelling.
 
 ## Core Wings
 

@@ -5,7 +5,6 @@ import { parse, stringify } from 'yaml';
 
 const root = process.cwd();
 const dataDir = join(root, 'src/data/artworks');
-const monolithPath = join(root, 'src/data/artworks.yaml');
 
 function usage() {
 	console.error(`Usage: npm run new:artwork -- --slug example-title [options]
@@ -68,11 +67,6 @@ function parseArtworkFile(filePath) {
 
 function existingSlugs() {
 	const slugs = new Set();
-	for (const entry of parseArtworkFile(monolithPath)) {
-		if (typeof entry.slug === 'string') {
-			slugs.add(entry.slug);
-		}
-	}
 	if (existsSync(dataDir)) {
 		for (const fileName of readdirSync(dataDir)) {
 			if (/\.ya?ml$/.test(fileName)) {

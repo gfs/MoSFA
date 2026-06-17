@@ -108,8 +108,8 @@ npm run dev -- --port 4322
 MoSFA keeps project-specific Codex guidance in two places:
 
 - `AGENTS.md` defines repository workflow rules, including mandatory task branch
-  isolation, PR labeling, image generation expectations, and the rule that new
-  artwork accessions should be added as separate files in `src/data/artworks/`.
+  isolation, PR labeling, image generation expectations, and the rule that
+  artwork accessions live as separate files in `src/data/artworks/`.
 - `.agents/skills/mosfa-art-curator/` is the local curator skill package. It
   carries the museum canon, worldbuilding references, artwork rubric, wing and
   category guidance, generation prompt structure, metadata style, and staff-role
@@ -163,9 +163,8 @@ The homepage, gallery, era pages, category pages, and detail page are created au
 Run `npm run validate:artworks` before committing accession metadata. `npm run
 build` runs the same validation before Astro builds the site.
 
-`src/data/artworks.yaml` remains supported for existing records. Do not insert
-new accessions into that shared file unless a task explicitly asks for a data
-migration; separate drop-in files keep parallel artwork branches easy to merge.
+Keep one accession record per file in `src/data/artworks/`. This keeps broad
+curatorial audits skimmable and parallel artwork branches easy to merge.
 
 ## Deployment
 
