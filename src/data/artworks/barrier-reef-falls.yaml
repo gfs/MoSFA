@@ -21,3 +21,4 @@ generation:
     - Include an event date in the folio line so the object reads as a real newspaper.
     - Use image generation for the whole photographed newsprint artifact when flat templating looks too digital.
     - The New Atlantis Times masthead should feel custom, engraved, and civic; headlines and subheads should use period newspaper serif or slab-serif type rather than modern computer fonts.
+    - A deterministic unnumbered grid mat can preserve archival object context without trusting generated rulers, numbered cutting mats, or other pseudo-precise staging.

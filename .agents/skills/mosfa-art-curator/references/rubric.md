@@ -61,6 +61,15 @@ Reject or revise works that:
 - Look like human bodies with shrimp parts attached.
 - Use food framing or animal-object framing.
 
+## Text, Number, And Instrument QA
+
+Visible words, dates, folio lines, numbers, clocks, maps, diagrams, and measuring instruments are compositional claims, not harmless texture. During review, zoom in and check them directly.
+
+- Verify ordered numeric systems such as rulers, scales, tick marks, timelines, calendars, clocks, page numbers, tables, and instrument readouts. If the sequence is malformed and not essential, crop or remove it; if it is essential, revise with deterministic layout or regenerate until it is correct.
+- Archival mats, plinths, and conservation tables can strengthen object reality, but avoid generated rulers, numbered cutting mats, calibration strips, and similar pseudo-precise staging unless they are curatorially necessary and manually verified at full size. Prefer deterministic unnumbered grids when the frame is atmosphere rather than evidence.
+- Treat decorative shell-script body text as atmospheric unless metadata claims specific readable content, but manually inspect all Latin-letter headlines, dates, captions, and Arabic numerals for legibility and consistency.
+- For newspaper accessions, check edition chronology and nested-paper continuity. Same-day extras, later corrections, mastheads, folio lines, and edition labels must agree with the accession's narrative.
+
 ## Review Format
 
 For curatorial review, use this concise structure:

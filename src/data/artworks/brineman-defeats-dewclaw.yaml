@@ -16,10 +16,13 @@ featured: false
 published: true
 generation:
   successfulPrompt: |
-    Imagegen produced a photographed physical newspaper artifact on aged newsprint with a dated folio line, the standing motto "All the News That's Fit to Brine," pearlmark price, an ornate engraved masthead, and the corrected outer headline "BRINEMAN DEFEATS DEWCLAW" in period serif display type. The halftone press photo inside the page shows Brineman holding a styled miniature New Atlantis Times extra, complete with its own masthead, folio, motto, shell-script columns, and the incorrect headline "DEWCLAW DEFEATS BRINEMAN."
+    Imagegen produced a photographed physical newspaper artifact on aged newsprint resting on an unnumbered archival grid mat. The corrected outer paper carries the dated folio line "WEDNESDAY, NOVEMBER 3, 1948 | HIGH TIDE EDITION | TWO PEARLMARKS," the standing motto "All the News That's Fit to Brine," an ornate engraved masthead, and the corrected headline "BRINEMAN DEFEATS DEWCLAW" in period serif display type. The halftone press photo inside the page shows Brineman holding a styled miniature New Atlantis Times low-tide extra from the same day, complete with matching masthead, folio, motto, shell-script columns, and the incorrect headline "DEWCLAW DEFEATS BRINEMAN."
   lessons:
     - In a Dewey Defeats Truman-style homage, the outer page should carry the corrected result when it frames the famous photograph.
     - The incorrect headline must remain visible on the newspaper held inside the press photo.
     - Include an event date in the folio line so the object reads as a real newspaper.
     - The New Atlantis Times masthead should feel custom, engraved, and civic; headlines and subheads should use period newspaper serif or slab-serif type rather than modern computer fonts.
     - When a newspaper appears inside a newspaper photograph, give the nested object the same press conventions instead of rendering it as a plain headline sign.
+    - For same-day correction narratives, make the edition sequence explicit: an earlier low-tide extra can be held inside a later high-tide correction, but the mastheads, date, folio style, and newspaper formatting should match.
+    - A deterministic unnumbered grid mat can preserve archival object context without trusting generated rulers, numbered cutting mats, or other pseudo-precise staging.
+    - Background press figures still need a close anatomy pass: avoid many-antenna drift, stump hands, and props that imply missing manipulator function.
