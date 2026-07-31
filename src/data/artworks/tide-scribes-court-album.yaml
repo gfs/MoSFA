@@ -1,0 +1,25 @@
+title: The Tide-Scribe's Court Album
+slug: tide-scribes-court-album
+artistReference: Persian and Mughal miniature manuscript traditions
+sourceWork: Court album and illuminated manuscript painting
+yearOrPeriod: Early modern manuscript painting translation
+era: Tidal Print Archive
+categories:
+  - Illuminated Manuscripts
+  - Court Albums
+image: artworks/tide-scribes-court-album.png
+imageAlt: An illuminated manuscript-style court scene where shrimp-folk courtiers gather around an open shell book in a jeweled reef palace garden.
+summary: Court ceremony, tide notation, and jewel-toned manuscript space carry shrimp-folk scholarship into miniature painting.
+description: Flattened perspective, patterned ornament, shell architecture, and careful court gestures translate manuscript intimacy without reducing the figures to decoration. The open album centers tide knowledge as a civic and artistic discipline.
+featured: false
+published: true
+generation:
+  successfulPrompt: |
+    Create a high-quality museum accession image for the Museum of Shrimp-Folk Art titled in metadata "The Tide-Scribe's Court Album". A Persian/Mughal miniature manuscript painting translated into shrimp-folk court culture. Scene: an ornate shell-palace garden court viewed in flattened perspective, with jewel-toned tile floors, flowering reef plants, patterned carpets, scalloped arches, and several shrimp-folk courtiers gathered around a tide-scribe presenting an illuminated shell manuscript. Composition should use miniature painting logic: delicate outlines, compressed spatial layers, patterned ornament, balanced clusters of figures, decorative border, luminous lapis, vermilion, gold, turquoise, and ivory. Shrimp-folk figures are anatomically coherent and stylized: upright bipedal exoskeleton bodies, two antennae, expressive dark eyes, clawed or hybrid manipulator hands holding shell pages and reed-like styluses, two legs and tail fans integrated beneath robes. The manuscript pages show invented tide glyphs and abstract current diagrams, not readable modern text. Serious courtly intimacy, precise brushwork, archival manuscript surface, museum-quality reproduction. No humans, no food framing, no joke tone, no European oil painting style, no readable English or Latin letters, no extra limbs, no tangled antenna clusters, no watermark.
+  selectionNotes:
+    - Approved by the user from the June 2026 acquisition audit shortlist.
+    - Accepted as a collection-expanding manuscript accession.
+  criticDecision: Gallery
+  lessons:
+    - Miniature-style accessions should preserve flattened space, ornamental border logic, and precise court gesture before adding shrimp-folk detail.
+    - Invented tide glyphs and shell books can carry manuscript specificity without relying on readable generated text.
